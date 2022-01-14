@@ -1,0 +1,28 @@
+
+svg {
+	display: block;
+	margin: 3rem auto;
+	outline: 1px solid #ddd;
+}
+
+svg .normal {
+	stroke: #000;
+	stroke-width: 2px;
+	fill: #fff;
+	cursor: pointer;
+}
+
+svg .normal:hover {
+	stroke: #777;
+	fill: #ccc;
+}
+
+svg .normal.active {
+	stroke: #777;
+	fill: red;
+}
+
+svg .connection {
+	stroke: #000;
+	stroke-width: 2px;
+}
